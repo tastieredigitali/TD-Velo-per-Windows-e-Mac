@@ -42,7 +42,7 @@ jobs:
       - name: Sorgente
         uses: actions/checkout@v6
         with:
-          repository: Giuseppe-sciarra/TD-Velo
+          repository: tastieredigitali/TD-Velo
           token: ${{ secrets.SORGENTE_TOKEN }}
           ref: ${{ inputs.ramo || 'main' }}
 
@@ -99,7 +99,7 @@ jobs:
       - name: Sorgente
         uses: actions/checkout@v6
         with:
-          repository: Giuseppe-sciarra/TD-Velo
+          repository: tastieredigitali/TD-Velo
           token: ${{ secrets.SORGENTE_TOKEN }}
           ref: ${{ inputs.ramo || 'main' }}
       - uses: actions/setup-dotnet@v5
@@ -177,7 +177,7 @@ jobs:
       - name: Sorgente
         uses: actions/checkout@v6
         with:
-          repository: Giuseppe-sciarra/TD-Velo
+          repository: tastieredigitali/TD-Velo
           token: ${{ secrets.SORGENTE_TOKEN }}
           ref: ${{ inputs.ramo || 'main' }}
 

@@ -17,7 +17,7 @@ jobs:
       - name: Sorgente
         uses: actions/checkout@v6
         with:
-          repository: Giuseppe-sciarra/TD-Velo
+          repository: tastieredigitali/TD-Velo
           token: ${{ secrets.SORGENTE_TOKEN }}
       - name: Pagina della vetrina
         env:
